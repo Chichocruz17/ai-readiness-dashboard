@@ -1,0 +1,581 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red70\green137\blue204;\red23\green24\blue24;\red140\green211\blue254;
+\red202\green202\blue202;\red109\green109\blue109;\red194\green126\blue101;\red109\green115\blue120;\red212\green212\blue212;
+\red113\green192\blue131;\red167\green197\blue152;\red183\green111\blue247;\red54\green192\blue160;\red246\green124\blue48;
+}
+{\*\expandedcolortbl;;\cssrgb\c33725\c61176\c83922;\cssrgb\c11765\c12157\c12549;\cssrgb\c61176\c86275\c99608;
+\cssrgb\c83137\c83137\c83137;\cssrgb\c50196\c50196\c50196;\cssrgb\c80784\c56863\c47059;\cssrgb\c50196\c52549\c54510;\cssrgb\c86275\c86275\c86275;
+\cssrgb\c50588\c78824\c58431;\cssrgb\c70980\c80784\c65882;\cssrgb\c77255\c54118\c97647;\cssrgb\c23922\c78824\c69020;\cssrgb\c98039\c56471\c24314;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20300\viewh13300\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE\cf4 \strokec4  html\cf2 \strokec2 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 html\cf5 \strokec5  \cf4 \strokec4 lang\cf6 \strokec6 =\cf7 \strokec7 "en"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "scroll-smooth"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 head\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf6 \strokec6 <\cf2 \strokec2 meta\cf5 \strokec5  \cf4 \strokec4 charset\cf6 \strokec6 =\cf7 \strokec7 "UTF-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 meta\cf5 \strokec5  \cf4 \strokec4 name\cf6 \strokec6 =\cf7 \strokec7 "viewport"\cf5 \strokec5  \cf4 \strokec4 content\cf6 \strokec6 =\cf7 \strokec7 "width=device-width, initial-scale=1.0"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 title\cf6 \strokec6 >\cf5 \strokec5 Modernising IT Stack for AI Readiness\cf6 \strokec6 </\cf2 \strokec2 title\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 script\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://cdn.tailwindcss.com"\cf6 \strokec6 ></\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 script\cf5 \strokec5  \cf4 \strokec4 src\cf6 \strokec6 =\cf7 \strokec7 "https://cdn.jsdelivr.net/npm/chart.js"\cf6 \strokec6 ></\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 link\cf5 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf7 \strokec7 "preconnect"\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "https://fonts.googleapis.com"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 link\cf5 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf7 \strokec7 "preconnect"\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "https://fonts.gstatic.com"\cf5 \strokec5  \cf4 \strokec4 crossorigin\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 link\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"\cf5 \strokec5  \cf4 \strokec4 rel\cf6 \strokec6 =\cf7 \strokec7 "stylesheet"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 <!-- Chosen Palette: Warm Neutrals -->\cf5 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 <!-- Application Structure Plan: A single-page application with a fixed top navigation bar for easy access to key thematic sections. The structure is designed as a guided journey, starting with the "Why" (the problem), moving to "The Foundation" (architectural solutions), "The Operations" (management practices), "The Framework" (application design), and finally "Your Roadmap" (actionable steps). This thematic flow is more intuitive for learning than a linear document structure, allowing users to explore concepts based on their interest while understanding the logical progression from problem to solution. Key interactions include comparative cards, interactive diagrams, a small simulation for AIOps, and a self-assessment checklist to actively engage the user. -->\cf5 \cb1 \strokec5 \
+\cb3     \cf8 \strokec8 <!-- Visualization & Content Choices: \cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf8 \cb3 \strokec8         1. AI vs. Traditional Workloads -> Goal: Compare -> Viz: Side-by-side cards & a simple Chart.js bar chart -> Interaction: Hover tooltips on chart -> Justification: Visually contrasts the core problem of workload volatility, making the need for modernization immediately clear.\cf5 \cb1 \strokec5 \
+\cf8 \cb3 \strokec8         2. Resilience Architecture -> Goal: Organize/Explain -> Viz: Interactive diagram using HTML/CSS divs -> Interaction: Click to reveal details on components like Microservices/Kubernetes -> Justification: Makes abstract architectural patterns tangible and explorable without complex graphics.\cf5 \cb1 \strokec5 \
+\cf8 \cb3 \strokec8         3. AIOps Simulation -> Goal: Demonstrate a process -> Viz: Chart.js line chart showing a system metric -> Interaction: Button click triggers an anomaly/recovery sequence on the chart -> Justification: Transforms the abstract concept of self-healing into a memorable, dynamic visual demonstration.\cf5 \cb1 \strokec5 \
+\cf8 \cb3 \strokec8         4. AIM Framework -> Goal: Organize/Explore -> Viz: Clickable, expandable layers built with HTML/CSS -> Interaction: Clicking a layer reveals its components and relationships -> Justification: A more engaging and mobile-friendly way to present the layered framework than a static table.\cf5 \cb1 \strokec5 \
+\cf8 \cb3 \strokec8         5. Readiness Checklist -> Goal: Engage/Inform -> Viz: HTML checklist with a dynamic progress bar -> Interaction: Checking items updates the progress bar -> Justification: Turns a passive list into an interactive self-assessment, making the content more actionable for the user.\cf5 \cb1 \strokec5 \
+\cf8 \cb3 \strokec8     -->\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf8 \strokec8 <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 style\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 body\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 font-family:\cf5 \strokec5  \cf10 \strokec10 'Inter'\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 sans-serif\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  #f5f5f4\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* stone-100 */\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #27272a\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* zinc-800 */\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .nav-link\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 color\cf5 \strokec5  \cf11 \strokec11 0.3s\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 border-bottom-color\cf5 \strokec5  \cf11 \strokec11 0.3s\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .nav-link:hover\cf9 \strokec9 ,\cf5 \strokec5  \cf2 \strokec2 .nav-link.active\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 color:\cf5 \strokec5  #0284c7\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* sky-600 */\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 border-bottom-color:\cf5 \strokec5  #0284c7\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .card\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 transform\cf5 \strokec5  \cf11 \strokec11 0.3s\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 box-shadow\cf5 \strokec5  \cf11 \strokec11 0.3s\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .card:hover\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transform:\cf5 \strokec5  \cf7 \strokec7 translateY(\cf11 \strokec11 -5px\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 box-shadow:\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 10px\cf5 \strokec5  \cf11 \strokec11 15px\cf5 \strokec5  \cf11 \strokec11 -3px\cf5 \strokec5  \cf7 \strokec7 rgb(\cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 0.1\cf7 \strokec7 )\cf9 \strokec9 ,\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 4px\cf5 \strokec5  \cf11 \strokec11 6px\cf5 \strokec5  \cf11 \strokec11 -4px\cf5 \strokec5  \cf7 \strokec7 rgb(\cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf11 \strokec11 0\cf5 \strokec5  \cf9 \strokec9 /\cf5 \strokec5  \cf11 \strokec11 0.1\cf7 \strokec7 )\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .aim-layer\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 all\cf5 \strokec5  \cf11 \strokec11 0.3s\cf5 \strokec5  \cf7 \strokec7 ease-in-out\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 cursor:\cf5 \strokec5  \cf7 \strokec7 pointer\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .aim-layer\cf5 \strokec5  \cf2 \strokec2 .aim-content\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 max-height:\cf5 \strokec5  \cf11 \strokec11 0\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 overflow:\cf5 \strokec5  \cf7 \strokec7 hidden\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 max-height\cf5 \strokec5  \cf11 \strokec11 0.5s\cf5 \strokec5  \cf7 \strokec7 ease-in-out\cf9 \strokec9 ,\cf5 \strokec5  \cf7 \strokec7 padding\cf5 \strokec5  \cf11 \strokec11 0.5s\cf5 \strokec5  \cf7 \strokec7 ease-in-out\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .aim-layer.open\cf5 \strokec5  \cf2 \strokec2 .aim-content\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 max-height:\cf5 \strokec5  \cf11 \strokec11 1000px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding-top:\cf5 \strokec5  \cf11 \strokec11 1rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 padding-bottom:\cf5 \strokec5  \cf11 \strokec11 1rem\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .progress-bar-inner\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 width\cf5 \strokec5  \cf11 \strokec11 0.5s\cf5 \strokec5  \cf7 \strokec7 ease-in-out\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .diagram-node\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 transition:\cf5 \strokec5  \cf7 \strokec7 all\cf5 \strokec5  \cf11 \strokec11 0.2s\cf5 \strokec5  \cf7 \strokec7 ease-in-out\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .diagram-node:hover\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 background-color:\cf5 \strokec5  #e0f2fe\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* sky-100 */\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 border-color:\cf5 \strokec5  #0284c7\cf9 \strokec9 ;\cf5 \strokec5  \cf8 \strokec8 /* sky-600 */\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \cf2 \strokec2 .chart-container\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 position:\cf5 \strokec5  \cf7 \strokec7 relative\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 width:\cf5 \strokec5  \cf11 \strokec11 100%\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 max-width:\cf5 \strokec5  \cf11 \strokec11 600px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 margin-left:\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 margin-right:\cf5 \strokec5  \cf7 \strokec7 auto\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 height:\cf5 \strokec5  \cf11 \strokec11 300px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf4 \strokec4 max-height:\cf5 \strokec5  \cf11 \strokec11 400px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         @\cf2 \strokec2 media\cf5 \strokec5  (\cf2 \strokec2 min-width:\cf5 \strokec5  768\cf2 \strokec2 px\cf5 \strokec5 ) \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             .chart-container \{\cb1 \
+\cb3                 \cf4 \strokec4 height:\cf5 \strokec5  \cf11 \strokec11 350px\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3         \}\cb1 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 style\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 head\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 <\cf2 \strokec2 body\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "antialiased"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf5 \cb3     \cf6 \strokec6 <\cf2 \strokec2 header\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 nav\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center justify-between h-16"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex-shrink-0"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h1\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-bold text-zinc-800"\cf6 \strokec6 >\cf5 \strokec5 AI Readiness\cf6 \strokec6 </\cf2 \strokec2 h1\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "hidden md:block"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "ml-10 flex items-baseline space-x-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#why"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "nav-link px-3 py-2 text-sm font-medium text-zinc-600 border-b-2 border-transparent"\cf6 \strokec6 >\cf5 \strokec5 The Why\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#foundation"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "nav-link px-3 py-2 text-sm font-medium text-zinc-600 border-b-2 border-transparent"\cf6 \strokec6 >\cf5 \strokec5 The Foundation\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#operations"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "nav-link px-3 py-2 text-sm font-medium text-zinc-600 border-b-2 border-transparent"\cf6 \strokec6 >\cf5 \strokec5 The Operations\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#framework"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "nav-link px-3 py-2 text-sm font-medium text-zinc-600 border-b-2 border-transparent"\cf6 \strokec6 >\cf5 \strokec5 The Framework\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 a\cf5 \strokec5  \cf4 \strokec4 href\cf6 \strokec6 =\cf7 \strokec7 "#roadmap"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "nav-link px-3 py-2 text-sm font-medium text-zinc-600 border-b-2 border-transparent"\cf6 \strokec6 >\cf5 \strokec5 Your Roadmap\cf6 \strokec6 </\cf2 \strokec2 a\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 nav\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 header\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 main\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "hero"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-white py-20 sm:py-24"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto px-4 sm:px-6 lg:px-8 text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 h2\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl"\cf6 \strokec6 >\cf5 \strokec5 Modernising Your IT Stack for AI Readiness\cf6 \strokec6 </\cf2 \strokec2 h2\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-6 text-lg leading-8 text-zinc-600 max-w-3xl mx-auto"\cf6 \strokec6 >\cf5 \strokec5 An interactive guide to understanding the challenges and architecting the solutions for building a resilient, scalable, and intelligent IT infrastructure.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "why"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "py-20 sm:py-24"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "max-w-3xl mx-auto text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-3xl font-bold tracking-tight text-zinc-900"\cf6 \strokec6 >\cf5 \strokec5 The AI Imperative: Why Modernise Now?\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-4 text-lg text-zinc-600"\cf6 \strokec6 >\cf5 \strokec5 AI workloads are fundamentally different from traditional ones. Their dynamic, data-intensive nature creates a stress test for legacy systems, revealing critical gaps in performance, scalability, and resilience. This section explores the unique demands of AI and the risks of inaction.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "card bg-white p-8 rounded-xl shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold text-zinc-800"\cf6 \strokec6 >\cf5 \strokec5 Traditional Workloads\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 ul\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-4 space-y-2 text-zinc-600 list-disc list-inside"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Predictable, transactional patterns\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Static capacity planning\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Stable operational management\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Linear "input-process-output" tasks\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 ul\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "card bg-white p-8 rounded-xl shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold text-zinc-800"\cf6 \strokec6 >\cf5 \strokec5 AI-Driven Workloads\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 ul\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-4 space-y-2 text-zinc-600 list-disc list-inside"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Dynamic, complex, and iterative\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Unpredictable resource spikes\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Massive data ingestion & processing\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \strokec5 Requires elastic, on-demand resources\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 ul\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-16 bg-white p-8 rounded-xl shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold text-center text-zinc-800"\cf6 \strokec6 >\cf5 \strokec5 Visualizing the Difference: Resource Utilization\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-zinc-600 mt-2"\cf6 \strokec6 >\cf5 \strokec5 AI workloads cause massive, unpredictable spikes in resource usage, making traditional, static provisioning inefficient and costly. Click the legend to toggle visibility.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "chart-container mt-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 canvas\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "workloadChart"\cf6 \strokec6 ></\cf2 \strokec2 canvas\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "foundation"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-white py-20 sm:py-24"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "max-w-3xl mx-auto text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-3xl font-bold tracking-tight text-zinc-900"\cf6 \strokec6 >\cf5 \strokec5 The Foundation: AI-Ready IT Resilience\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-4 text-lg text-zinc-600"\cf6 \strokec6 >\cf5 \strokec5 To meet the demands of AI, we must move from rigid, monolithic systems to flexible, automated architectures. This section explores the core patterns and technologies that form the bedrock of a modern, resilient IT stack. Click on the components below to learn more.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-16 p-8 rounded-xl shadow-md bg-stone-50 relative"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "diagram-info-box"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "hidden absolute top-4 right-4 bg-white p-6 rounded-lg shadow-lg w-full max-w-md border border-stone-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "diagram-info-title"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-bold text-lg text-sky-700"\cf6 \strokec6 ></\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "diagram-info-text"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-2 text-sm text-zinc-600"\cf6 \strokec6 ></\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex flex-col items-center space-y-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "diagram-node text-center p-4 border-2 border-stone-300 bg-white rounded-lg w-48"\cf5 \strokec5  \cf4 \strokec4 data-title\cf6 \strokec6 =\cf7 \strokec7 "Microservices"\cf5 \strokec5  \cf4 \strokec4 data-text\cf6 \strokec6 =\cf7 \strokec7 "Applications are structured as a collection of small, autonomous services. Each service can be developed, deployed, and scaled independently, providing immense flexibility for complex AI systems."\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold"\cf6 \strokec6 >\cf5 \strokec5 Microservices\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-0.5 h-8 bg-stone-300"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "diagram-node text-center p-4 border-2 border-stone-300 bg-white rounded-lg w-48"\cf5 \strokec5  \cf4 \strokec4 data-title\cf6 \strokec6 =\cf7 \strokec7 "Event-Driven Architecture"\cf5 \strokec5  \cf4 \strokec4 data-text\cf6 \strokec6 =\cf7 \strokec7 "Services communicate asynchronously through events. This decouples components, making the entire system more resilient and scalable as services don't need to be aware of each other's state."\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold"\cf6 \strokec6 >\cf5 \strokec5 Event-Driven Bus\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-0.5 h-8 bg-stone-300"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "diagram-node text-center p-4 border-2 border-sky-500 bg-sky-50 rounded-lg w-48"\cf5 \strokec5  \cf4 \strokec4 data-title\cf6 \strokec6 =\cf7 \strokec7 "Kubernetes"\cf5 \strokec5  \cf4 \strokec4 data-text\cf6 \strokec6 =\cf7 \strokec7 "The industry standard for orchestrating containerized applications. It automates deployment, scaling, and management, efficiently allocating expensive resources like GPUs and enabling zero-downtime updates."\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold"\cf6 \strokec6 >\cf5 \strokec5 Container Orchestration (Kubernetes)\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-0.5 h-8 bg-stone-300"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                          \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-lg"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "diagram-node text-center p-4 border-2 border-stone-300 bg-white rounded-lg"\cf5 \strokec5  \cf4 \strokec4 data-title\cf6 \strokec6 =\cf7 \strokec7 "Fault Tolerance"\cf5 \strokec5  \cf4 \strokec4 data-text\cf6 \strokec6 =\cf7 \strokec7 "The ability of a system to continue operating when components fail. Achieved through redundancy and automated failover, ensuring long-running training jobs and critical inference services remain available."\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold"\cf6 \strokec6 >\cf5 \strokec5 Fault Tolerance\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "diagram-node text-center p-4 border-2 border-stone-300 bg-white rounded-lg"\cf5 \strokec5  \cf4 \strokec4 data-title\cf6 \strokec6 =\cf7 \strokec7 "Elastic Scalability"\cf5 \strokec5  \cf4 \strokec4 data-text\cf6 \strokec6 =\cf7 \strokec7 "The system's ability to automatically add or remove resources to handle fluctuating workloads. This is critical for managing the unpredictable demands of AI efficiently and cost-effectively."\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold"\cf6 \strokec6 >\cf5 \strokec5 Elastic Scalability\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "operations"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "py-20 sm:py-24"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "max-w-3xl mx-auto text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-3xl font-bold tracking-tight text-zinc-900"\cf6 \strokec6 >\cf5 \strokec5 The Operations: SRE & AIOps\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-4 text-lg text-zinc-600"\cf6 \strokec6 >\cf5 \strokec5 A modern stack requires a modern operational model. AIOps (AI for IT Operations) uses AI to manage the complexity of AI infrastructure, creating a self-healing system that can proactively detect, diagnose, and resolve issues without human intervention.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-16 bg-white p-8 rounded-xl shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold text-center text-zinc-800"\cf6 \strokec6 >\cf5 \strokec5 AIOps in Action: A Self-Healing Simulation\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-center text-zinc-600 mt-2"\cf6 \strokec6 >\cf5 \strokec5 Click the button below to simulate an unexpected performance issue and watch how an AIOps-driven system automatically detects the anomaly and remediates it.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "chart-container mt-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 canvas\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "aiopsChart"\cf6 \strokec6 ></\cf2 \strokec2 canvas\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-8 flex flex-col md:flex-row items-center justify-center gap-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 button\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "simulate-btn"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-sky-600 text-white font-semibold py-2 px-6 rounded-lg hover:bg-sky-700 transition-colors"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             Simulate Anomaly\cb1 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 button\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center space-x-2 sm:space-x-4 text-sm"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "status-detect"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center space-x-2 p-2 bg-stone-100 rounded-md transition-all duration-300"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-3 h-3 rounded-full bg-stone-300"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \strokec5 Detect\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "status-analyze"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center space-x-2 p-2 bg-stone-100 rounded-md transition-all duration-300"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-3 h-3 rounded-full bg-stone-300"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \strokec5 Analyze\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "status-remediate"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center space-x-2 p-2 bg-stone-100 rounded-md transition-all duration-300"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-3 h-3 rounded-full bg-stone-300"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \strokec5 Remediate\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "status-resolved"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center space-x-2 p-2 bg-stone-100 rounded-md transition-all duration-300"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-3 h-3 rounded-full bg-stone-300"\cf6 \strokec6 ></\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \strokec5 Resolved\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "framework"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-white py-20 sm:py-24"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "max-w-3xl mx-auto text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-3xl font-bold tracking-tight text-zinc-900"\cf6 \strokec6 >\cf5 \strokec5 The AIM Framework for Generative AI\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-4 text-lg text-zinc-600"\cf6 \strokec6 >\cf5 \strokec5 The AIM (Application, Infrastructure, Model) Framework provides a clear, layered model for designing and building robust Generative AI applications. Click each layer to expand and explore its components.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-16 max-w-4xl mx-auto space-y-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "aim-layer bg-stone-50 rounded-lg border border-stone-200 overflow-hidden"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "aim-layer-1"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-6 flex justify-between items-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold text-sky-800"\cf6 \strokec6 >\cf5 \strokec5 Layer 1: Application & Orchestration\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-sky-800 transform transition-transform duration-300"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u9660 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "aim-content px-6 bg-white border-t border-stone-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-zinc-600 mb-4"\cf6 \strokec6 >\cf5 \strokec5 The top-most, user-facing layer that encapsulates business logic. It manages user input, constructs prompts, and orchestrates complex workflows by chaining together calls to LLMs, databases, and external APIs.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold text-zinc-700"\cf6 \strokec6 >\cf5 \strokec5 Key Components & Tools:\cf6 \strokec6 </\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 ul\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "list-disc list-inside mt-2 space-y-1 text-zinc-600"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Orchestration:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  LangChain, LlamaIndex, Semantic Kernel\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Backend/API:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  API Gateways, Flask, Node.js\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Frontend:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  React, Vue, HTML/CSS\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 ul\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "aim-layer bg-stone-50 rounded-lg border border-stone-200 overflow-hidden"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "aim-layer-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-6 flex justify-between items-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold text-sky-800"\cf6 \strokec6 >\cf5 \strokec5 Layer 2: Model & Data Services\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-sky-800 transform transition-transform duration-300"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u9660 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "aim-content px-6 bg-white border-t border-stone-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-zinc-600 mb-4"\cf6 \strokec6 >\cf5 \strokec5 The cognitive core of the application. This layer contains the Large Language Model (LLM) and the data services that ground it in proprietary, context-specific information, primarily through Retrieval-Augmented Generation (RAG).\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold text-zinc-700"\cf6 \strokec6 >\cf5 \strokec5 Key Components & Tools:\cf6 \strokec6 </\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 ul\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "list-disc list-inside mt-2 space-y-1 text-zinc-600"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Models:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  OpenAI/Google APIs, Self-hosted models (e.g., Llama 3)\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 RAG/Data:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  Vector Databases (Pinecone, Weaviate), Embedding Models\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Data Pipelines:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  Apache Kafka, Spark, Airflow\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 ul\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "aim-layer bg-stone-50 rounded-lg border border-stone-200 overflow-hidden"\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "aim-layer-3"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "p-6 flex justify-between items-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold text-sky-800"\cf6 \strokec6 >\cf5 \strokec5 Layer 3: Infrastructure & Operations\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-sky-800 transform transition-transform duration-300"\cf6 \strokec6 >\cf5 \strokec5 \uc0\u9660 \cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "aim-content px-6 bg-white border-t border-stone-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-zinc-600 mb-4"\cf6 \strokec6 >\cf5 \strokec5 The foundation upon which everything is built and operated. It includes core hardware, MLOps platforms for automation, observability tools for visibility, and AIOps for resilience and self-healing capabilities.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold text-zinc-700"\cf6 \strokec6 >\cf5 \strokec5 Key Components & Tools:\cf6 \strokec6 </\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 ul\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "list-disc list-inside mt-2 space-y-1 text-zinc-600"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Compute:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  GPUs (NVIDIA A100/H100), TPUs\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Orchestration:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  Kubernetes, Serverless Platforms\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Storage:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  Object Storage (S3, GCS), Parallel File Systems\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 li\cf6 \strokec6 ><\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5 Ops:\cf6 \strokec6 </\cf2 \strokec2 strong\cf6 \strokec6 >\cf5 \strokec5  MLOps, Observability & AIOps Platforms\cf6 \strokec6 </\cf2 \strokec2 li\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 ul\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 section\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "roadmap"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "py-20 sm:py-24"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto px-4 sm:px-6 lg:px-8"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "max-w-3xl mx-auto text-center"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 h3\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-3xl font-bold tracking-tight text-zinc-900"\cf6 \strokec6 >\cf5 \strokec5 Your Roadmap to AI Readiness\cf6 \strokec6 </\cf2 \strokec2 h3\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 p\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-4 text-lg text-zinc-600"\cf6 \strokec6 >\cf5 \strokec5 Use this high-level checklist to assess your organization's current state and identify critical gaps. Completing the checklist will give you a visual representation of your readiness level.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "mt-16 max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-md"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex justify-between items-center mb-4"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 h4\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "text-xl font-semibold"\cf6 \strokec6 >\cf5 \strokec5 AI Readiness Checklist\cf6 \strokec6 </\cf2 \strokec2 h4\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 span\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "progress-text"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-bold text-sky-600"\cf6 \strokec6 >\cf5 \strokec5 0% Complete\cf6 \strokec6 </\cf2 \strokec2 span\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "w-full bg-stone-200 rounded-full h-2.5 mb-6"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "progress-bar"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-sky-600 h-2.5 rounded-full progress-bar-inner"\cf5 \strokec5  \cf4 \strokec4 style\cf6 \strokec6 =\cf7 \strokec7 "width: 0%"\cf6 \strokec6 ></\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 <\cf2 \strokec2 form\cf5 \strokec5  \cf4 \strokec4 id\cf6 \strokec6 =\cf7 \strokec7 "readiness-checklist"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "space-y-6"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold text-zinc-700 mb-3"\cf6 \strokec6 >\cf5 \strokec5 1. Technical Infrastructure\cf6 \strokec6 </\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "space-y-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Access to scalable specialized compute (GPUs/TPUs)\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 High-throughput, scalable storage\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Low-latency, high-bandwidth network\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Modular, container-based architecture (Kubernetes)\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold text-zinc-700 mb-3"\cf6 \strokec6 >\cf5 \strokec5 2. Data Readiness\cf6 \strokec6 </\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "space-y-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Data is accessible and high-quality\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Robust data governance framework in place\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Automated and resilient data pipelines\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold text-zinc-700 mb-3"\cf6 \strokec6 >\cf5 \strokec5 3. Security & Compliance\cf6 \strokec6 </\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "space-y-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 AI risk management framework established (e.g., NIST)\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Data privacy and regulatory compliance procedures\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Strong identity and access management (IAM)\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 <\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 <\cf2 \strokec2 h5\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "font-semibold text-zinc-700 mb-3"\cf6 \strokec6 >\cf5 \strokec5 4. Organizational & Talent\cf6 \strokec6 </\cf2 \strokec2 h5\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                              \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "space-y-2"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Clear executive sponsorship and budget\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Plan for addressing skill gaps (Data Science, MLOps, SRE)\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                                 \cf6 \strokec6 <\cf2 \strokec2 label\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "flex items-center"\cf6 \strokec6 ><\cf2 \strokec2 input\cf5 \strokec5  \cf4 \strokec4 type\cf6 \strokec6 =\cf7 \strokec7 "checkbox"\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500 mr-3"\cf6 \strokec6 >\cf5 \strokec5 Culture of cross-functional collaboration\cf6 \strokec6 </\cf2 \strokec2 label\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                     \cf6 \strokec6 </\cf2 \strokec2 form\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3                 \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 section\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 main\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 footer\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "bg-white border-t border-stone-200"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 <\cf2 \strokec2 div\cf5 \strokec5  \cf4 \strokec4 class\cf6 \strokec6 =\cf7 \strokec7 "container mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center text-zinc-500"\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3             \cf6 \strokec6 <\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \strokec5 &copy; 2024 AI Readiness Masterclass. An interactive summary.\cf6 \strokec6 </\cf2 \strokec2 p\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         \cf6 \strokec6 </\cf2 \strokec2 div\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 footer\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+\cb3     \cf6 \strokec6 <\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cb3         document\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'DOMContentLoaded'\cf9 \strokec9 ,\cf5 \strokec5  \cf12 \strokec12 function\cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  workloadChartCtx \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'workloadChart'\cf9 \strokec9 ).\cf5 \strokec5 getContext\cf9 \strokec9 (\cf10 \strokec10 '2d'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 new\cf5 \strokec5  \cf13 \strokec13 Chart\cf9 \strokec9 (\cf5 \strokec5 workloadChartCtx\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 type\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'bar'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                 data\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     labels\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\cf10 \strokec10 'T1'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'T2'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'T3'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'T4'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'T5'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'T6'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'T7'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'T8'\cf9 \strokec9 ],\cf5 \cb1 \strokec5 \
+\cb3                     datasets\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \cb1 \strokec5 \
+\cb3                         label\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'Traditional Workload'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         data\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\cf14 \strokec14 60\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 65\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 62\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 68\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 70\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 66\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 63\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 65\cf9 \strokec9 ],\cf5 \cb1 \strokec5 \
+\cb3                         backgroundColor\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'rgba(113, 113, 122, 0.6)'\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 // zinc-500\cf5 \cb1 \strokec5 \
+\cb3                         borderColor\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'rgba(113, 113, 122, 1)'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         borderWidth\cf9 \strokec9 :\cf5 \strokec5  \cf14 \strokec14 1\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \},\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         label\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'AI-Driven Workload'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         data\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\cf14 \strokec14 20\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 95\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 30\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 80\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 25\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 100\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 40\cf9 \strokec9 ,\cf5 \strokec5  \cf14 \strokec14 90\cf9 \strokec9 ],\cf5 \cb1 \strokec5 \
+\cb3                         backgroundColor\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'rgba(2, 132, 199, 0.6)'\cf9 \strokec9 ,\cf5 \strokec5  \cf8 \strokec8 // sky-600\cf5 \cb1 \strokec5 \
+\cb3                         borderColor\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'rgba(2, 132, 199, 1)'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         borderWidth\cf9 \strokec9 :\cf5 \strokec5  \cf14 \strokec14 1\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}]\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                 options\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     responsive\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     maintainAspectRatio\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 false\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     scales\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         y\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             beginAtZero\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                             title\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 display\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                                 text\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'Resource Utilization (%)'\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                         x\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                              title\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 display\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                                 text\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'Time Interval'\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     plugins\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         tooltip\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             mode\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'index'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                             intersect\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 false\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                         legend\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             position\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'top'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  diagramNodes \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.diagram-node'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  infoBox \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'diagram-info-box'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  infoTitle \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'diagram-info-title'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  infoText \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'diagram-info-text'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3             diagramNodes\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 node \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 node\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     infoTitle\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  node\cf9 \strokec9 .\cf5 \strokec5 dataset\cf9 \strokec9 .\cf5 \strokec5 title\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     infoText\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  node\cf9 \strokec9 .\cf5 \strokec5 dataset\cf9 \strokec9 .\cf5 \strokec5 text\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     infoBox\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'hidden'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  initialAiopsData \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 labels\cf9 \strokec9 :\cf5 \strokec5  \cf13 \strokec13 Array\cf9 \strokec9 .\cf12 \strokec12 from\cf9 \strokec9 (\{\cf5 \strokec5  length\cf9 \strokec9 :\cf5 \strokec5  \cf14 \strokec14 20\cf5 \strokec5  \cf9 \strokec9 \},\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 _\cf9 \strokec9 ,\cf5 \strokec5  i\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf10 \strokec10 `T\cf9 \strokec9 $\{\cf5 \strokec5 i\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ),\cf5 \cb1 \strokec5 \
+\cb3                 datasets\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 [\{\cf5 \cb1 \strokec5 \
+\cb3                     label\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'System Performance Metric'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     data\cf9 \strokec9 :\cf5 \strokec5  \cf13 \strokec13 Array\cf9 \strokec9 (\cf14 \strokec14 20\cf9 \strokec9 ).\cf5 \strokec5 fill\cf9 \strokec9 (\cf14 \strokec14 85\cf9 \strokec9 ).\cf5 \strokec5 map\cf9 \strokec9 (\cf5 \strokec5 v \cf9 \strokec9 =>\cf5 \strokec5  v \cf9 \strokec9 +\cf5 \strokec5  \cf13 \strokec13 Math\cf9 \strokec9 .\cf5 \strokec5 random\cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 *\cf5 \strokec5  \cf14 \strokec14 5\cf9 \strokec9 ),\cf5 \cb1 \strokec5 \
+\cb3                     borderColor\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'rgba(2, 132, 199, 1)'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     backgroundColor\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'rgba(2, 132, 199, 0.1)'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     fill\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     tension\cf9 \strokec9 :\cf5 \strokec5  \cf14 \strokec14 0.4\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     pointRadius\cf9 \strokec9 :\cf5 \strokec5  \cf14 \strokec14 0\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}]\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  aiopsChartCtx \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'aiopsChart'\cf9 \strokec9 ).\cf5 \strokec5 getContext\cf9 \strokec9 (\cf10 \strokec10 '2d'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  aiopsChart \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 new\cf5 \strokec5  \cf13 \strokec13 Chart\cf9 \strokec9 (\cf5 \strokec5 aiopsChartCtx\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 type\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'line'\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                 data\cf9 \strokec9 :\cf5 \strokec5  \cf13 \strokec13 JSON\cf9 \strokec9 .\cf5 \strokec5 parse\cf9 \strokec9 (\cf13 \strokec13 JSON\cf9 \strokec9 .\cf5 \strokec5 stringify\cf9 \strokec9 (\cf5 \strokec5 initialAiopsData\cf9 \strokec9 )),\cf5 \cb1 \strokec5 \
+\cb3                 options\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     responsive\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     maintainAspectRatio\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 false\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                     scales\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         y\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             min\cf9 \strokec9 :\cf5 \strokec5  \cf14 \strokec14 0\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                             max\cf9 \strokec9 :\cf5 \strokec5  \cf14 \strokec14 120\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                             title\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 display\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ,\cf5 \cb1 \strokec5 \
+\cb3                                 text\cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'Performance Score'\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \},\cf5 \cb1 \strokec5 \
+\cb3                     plugins\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         legend\cf9 \strokec9 :\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \strokec5  display\cf9 \strokec9 :\cf5 \strokec5  \cf12 \strokec12 false\cf5 \strokec5  \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  simulateBtn \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'simulate-btn'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  statuses \cf9 \strokec9 =\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 detect\cf9 \strokec9 :\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'status-detect'\cf9 \strokec9 ),\cf5 \cb1 \strokec5 \
+\cb3                 analyze\cf9 \strokec9 :\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'status-analyze'\cf9 \strokec9 ),\cf5 \cb1 \strokec5 \
+\cb3                 remediate\cf9 \strokec9 :\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'status-remediate'\cf9 \strokec9 ),\cf5 \cb1 \strokec5 \
+\cb3                 resolved\cf9 \strokec9 :\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'status-resolved'\cf9 \strokec9 )\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \};\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 function\cf5 \strokec5  updateStatus\cf9 \strokec9 (\cf5 \strokec5 statusId\cf9 \strokec9 ,\cf5 \strokec5  color\cf9 \strokec9 ,\cf5 \strokec5  text\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  status \cf9 \strokec9 =\cf5 \strokec5  statuses\cf9 \strokec9 [\cf5 \strokec5 statusId\cf9 \strokec9 ];\cf5 \cb1 \strokec5 \
+\cb3                 status\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf10 \strokec10 'span:first-child'\cf9 \strokec9 ).\cf5 \strokec5 className \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `w-3 h-3 rounded-full \cf9 \strokec9 $\{\cf5 \strokec5 color\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 status\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'bg-stone-100'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 status\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf5 \strokec5 text \cf9 \strokec9 ===\cf5 \strokec5  \cf10 \strokec10 'white'\cf5 \strokec5  \cf9 \strokec9 ?\cf5 \strokec5  \cf10 \strokec10 'bg-orange-500'\cf5 \strokec5  \cf9 \strokec9 :\cf5 \strokec5  \cf10 \strokec10 'bg-green-500'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 status\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 `text-\cf9 \strokec9 $\{\cf5 \strokec5 text\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 function\cf5 \strokec5  resetStatuses\cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf13 \strokec13 Object\cf9 \strokec9 .\cf5 \strokec5 values\cf9 \strokec9 (\cf5 \strokec5 statuses\cf9 \strokec9 ).\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 status \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     status\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf10 \strokec10 'span:first-child'\cf9 \strokec9 ).\cf5 \strokec5 className \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'w-3 h-3 rounded-full bg-stone-300'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     status\cf9 \strokec9 .\cf5 \strokec5 className \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'flex items-center space-x-2 p-2 bg-stone-100 rounded-md transition-all duration-300'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\
+\cb3             simulateBtn\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 simulateBtn\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 true\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 simulateBtn\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'Simulation in Progress...'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 simulateBtn\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'opacity-50'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'cursor-not-allowed'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 resetStatuses\cf9 \strokec9 ();\cf5 \cb1 \strokec5 \
+\
+\cb3                 \cf12 \strokec12 let\cf5 \strokec5  i \cf9 \strokec9 =\cf5 \strokec5  \cf14 \strokec14 20\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  anomalyInterval \cf9 \strokec9 =\cf5 \strokec5  setInterval\cf9 \strokec9 (()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 i \cf9 \strokec9 >\cf5 \strokec5  \cf14 \strokec14 25\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         clearInterval\cf9 \strokec9 (\cf5 \strokec5 anomalyInterval\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         updateStatus\cf9 \strokec9 (\cf10 \strokec10 'detect'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'bg-white'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'white'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cb1 \
+\cb3                         setTimeout\cf9 \strokec9 (()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                              updateStatus\cf9 \strokec9 (\cf10 \strokec10 'analyze'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'bg-white'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'white'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \},\cf5 \strokec5  \cf14 \strokec14 1000\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                         setTimeout\cf9 \strokec9 (()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                             updateStatus\cf9 \strokec9 (\cf10 \strokec10 'remediate'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'bg-white'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'white'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                             \cf12 \strokec12 const\cf5 \strokec5  recoveryInterval \cf9 \strokec9 =\cf5 \strokec5  setInterval\cf9 \strokec9 (()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                 \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 i \cf9 \strokec9 >\cf5 \strokec5  \cf14 \strokec14 35\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                     clearInterval\cf9 \strokec9 (\cf5 \strokec5 recoveryInterval\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                                     updateStatus\cf9 \strokec9 (\cf10 \strokec10 'resolved'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'bg-white'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'white'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                                     setTimeout\cf9 \strokec9 (()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                                         simulateBtn\cf9 \strokec9 .\cf5 \strokec5 disabled \cf9 \strokec9 =\cf5 \strokec5  \cf12 \strokec12 false\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                         simulateBtn\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 'Simulate Anomaly'\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                         simulateBtn\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'opacity-50'\cf9 \strokec9 ,\cf5 \strokec5  \cf10 \strokec10 'cursor-not-allowed'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                                     \cf9 \strokec9 \},\cf5 \strokec5  \cf14 \strokec14 2000\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                                     \cf12 \strokec12 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                                 \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                                 aiopsChart\cf9 \strokec9 .\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 labels\cf9 \strokec9 .\cf5 \strokec5 push\cf9 \strokec9 (\cf10 \strokec10 `T\cf9 \strokec9 $\{\cf5 \strokec5 i\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                                 aiopsChart\cf9 \strokec9 .\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 datasets\cf9 \strokec9 [\cf14 \strokec14 0\cf9 \strokec9 ].\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 push\cf9 \strokec9 (\cf14 \strokec14 85\cf5 \strokec5  \cf9 \strokec9 +\cf5 \strokec5  \cf13 \strokec13 Math\cf9 \strokec9 .\cf5 \strokec5 random\cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 *\cf5 \strokec5  \cf14 \strokec14 5\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                                 aiopsChart\cf9 \strokec9 .\cf5 \strokec5 update\cf9 \strokec9 (\cf10 \strokec10 'none'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                                 i\cf9 \strokec9 ++;\cf5 \cb1 \strokec5 \
+\cb3                             \cf9 \strokec9 \},\cf5 \strokec5  \cf14 \strokec14 200\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                         \cf9 \strokec9 \},\cf5 \strokec5  \cf14 \strokec14 2000\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\
+\cb3                         \cf12 \strokec12 return\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                     aiopsChart\cf9 \strokec9 .\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 labels\cf9 \strokec9 .\cf5 \strokec5 push\cf9 \strokec9 (\cf10 \strokec10 `T\cf9 \strokec9 $\{\cf5 \strokec5 i\cf9 \strokec9 \}\cf10 \strokec10 `\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     aiopsChart\cf9 \strokec9 .\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 datasets\cf9 \strokec9 [\cf14 \strokec14 0\cf9 \strokec9 ].\cf5 \strokec5 data\cf9 \strokec9 .\cf5 \strokec5 push\cf9 \strokec9 (\cf14 \strokec14 30\cf5 \strokec5  \cf9 \strokec9 -\cf5 \strokec5  \cf13 \strokec13 Math\cf9 \strokec9 .\cf5 \strokec5 random\cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 *\cf5 \strokec5  \cf14 \strokec14 10\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     aiopsChart\cf9 \strokec9 .\cf5 \strokec5 update\cf9 \strokec9 (\cf10 \strokec10 'none'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     i\cf9 \strokec9 ++;\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \},\cf5 \strokec5  \cf14 \strokec14 200\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  aimLayers \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.aim-layer'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             aimLayers\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 layer \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 layer\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'click'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     layer\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 toggle\cf9 \strokec9 (\cf10 \strokec10 'open'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 const\cf5 \strokec5  arrow \cf9 \strokec9 =\cf5 \strokec5  layer\cf9 \strokec9 .\cf5 \strokec5 querySelector\cf9 \strokec9 (\cf10 \strokec10 'span'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     arrow\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 toggle\cf9 \strokec9 (\cf10 \strokec10 'rotate-180'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  checklist \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'readiness-checklist'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  checkboxes \cf9 \strokec9 =\cf5 \strokec5  checklist\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 'input[type="checkbox"]'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  progressBar \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'progress-bar'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  progressText \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 getElementById\cf9 \strokec9 (\cf10 \strokec10 'progress-text'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  totalCheckboxes \cf9 \strokec9 =\cf5 \strokec5  checkboxes\cf9 \strokec9 .\cf5 \strokec5 length\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\
+\cb3             checklist\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'change'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  checkedCount \cf9 \strokec9 =\cf5 \strokec5  checklist\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 'input[type="checkbox"]:checked'\cf9 \strokec9 ).\cf5 \strokec5 length\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 const\cf5 \strokec5  percentage \cf9 \strokec9 =\cf5 \strokec5  \cf13 \strokec13 Math\cf9 \strokec9 .\cf5 \strokec5 round\cf9 \strokec9 ((\cf5 \strokec5 checkedCount \cf9 \strokec9 /\cf5 \strokec5  totalCheckboxes\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 *\cf5 \strokec5  \cf14 \strokec14 100\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                 progressBar\cf9 \strokec9 .\cf5 \strokec5 style\cf9 \strokec9 .\cf5 \strokec5 width \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\cf9 \strokec9 $\{\cf5 \strokec5 percentage\cf9 \strokec9 \}\cf10 \strokec10 %`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 progressText\cf9 \strokec9 .\cf5 \strokec5 textContent \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 `\cf9 \strokec9 $\{\cf5 \strokec5 percentage\cf9 \strokec9 \}\cf10 \strokec10 % Complete`\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  navLinks \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 '.nav-link'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cf12 \strokec12 const\cf5 \strokec5  sections \cf9 \strokec9 =\cf5 \strokec5  document\cf9 \strokec9 .\cf5 \strokec5 querySelectorAll\cf9 \strokec9 (\cf10 \strokec10 'main section'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3             \cb1 \
+\cb3             window\cf9 \strokec9 .\cf5 \strokec5 addEventListener\cf9 \strokec9 (\cf10 \strokec10 'scroll'\cf9 \strokec9 ,\cf5 \strokec5  \cf9 \strokec9 ()\cf5 \strokec5  \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                 \cf12 \strokec12 let\cf5 \strokec5  current \cf9 \strokec9 =\cf5 \strokec5  \cf10 \strokec10 ''\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                 sections\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 section \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 const\cf5 \strokec5  sectionTop \cf9 \strokec9 =\cf5 \strokec5  section\cf9 \strokec9 .\cf5 \strokec5 offsetTop\cf9 \strokec9 ;\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 pageYOffset \cf9 \strokec9 >=\cf5 \strokec5  sectionTop \cf9 \strokec9 -\cf5 \strokec5  \cf14 \strokec14 80\cf9 \strokec9 )\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         current \cf9 \strokec9 =\cf5 \strokec5  section\cf9 \strokec9 .\cf5 \strokec5 getAttribute\cf9 \strokec9 (\cf10 \strokec10 'id'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\
+\cb3                 navLinks\cf9 \strokec9 .\cf5 \strokec5 forEach\cf9 \strokec9 (\cf5 \strokec5 link \cf9 \strokec9 =>\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                     link\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 remove\cf9 \strokec9 (\cf10 \strokec10 'active'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf12 \strokec12 if\cf5 \strokec5  \cf9 \strokec9 (\cf5 \strokec5 link\cf9 \strokec9 .\cf5 \strokec5 getAttribute\cf9 \strokec9 (\cf10 \strokec10 'href'\cf9 \strokec9 ).\cf5 \strokec5 includes\cf9 \strokec9 (\cf5 \strokec5 current\cf9 \strokec9 ))\cf5 \strokec5  \cf9 \strokec9 \{\cf5 \cb1 \strokec5 \
+\cb3                         link\cf9 \strokec9 .\cf5 \strokec5 classList\cf9 \strokec9 .\cf5 \strokec5 add\cf9 \strokec9 (\cf10 \strokec10 'active'\cf9 \strokec9 );\cf5 \cb1 \strokec5 \
+\cb3                     \cf9 \strokec9 \}\cf5 \cb1 \strokec5 \
+\cb3                 \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3             \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3         \cf9 \strokec9 \});\cf5 \cb1 \strokec5 \
+\cb3     \cf6 \strokec6 </\cf2 \strokec2 script\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 body\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\cf6 \cb3 \strokec6 </\cf2 \strokec2 html\cf6 \strokec6 >\cf5 \cb1 \strokec5 \
+\
+}
